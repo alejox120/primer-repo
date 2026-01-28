@@ -1,0 +1,49 @@
+.pagina-bli {
+    
+    background-image: url('../imagenes/blibio.png'); 
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+    
+    display: flex;           
+    flex-direction: column;  
+    justify-content: center; 
+    align-items: center;     
+    min-height: 100vh;       
+    margin: 0;               
+}
+
+.pagina-bli h1 {
+    text-align: center;
+    color: rgb(11, 12, 12);
+    text-shadow: 2px 2px 4px rgba(255, 253, 253, 0.5);
+    margin-bottom: 50px;     
+    font-size: 3rem;         
+}
+
+.pagina-bli ol {
+    padding: 0;              
+    list-style: none;       
+    display: flex;  
+    gap: 20px;              
+    align-items: center;
+}
+
+.pagina-bli a {
+    color: #fdfeff;
+    text-decoration: none;
+    font-weight: bold;
+    background-color: rgba(26, 47, 240, 0.8); 
+    padding: 12px 30px;     
+    border-radius: 8px;      
+    display: inline-block;  
+    min-width: 150px;        
+    text-align: center;      
+    transition: 0.3s;        
+}
+
+.pagina-bli a:hover {
+    background-color: rgba(26, 47, 240, 1);
+    transform: scale(1.05);  
+}
